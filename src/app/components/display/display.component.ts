@@ -12,7 +12,7 @@ import {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class DisplayComponent implements OnInit {
-  @Input() value: number = 0;
+  @Input() counter: number = 0;
 
   constructor() {}
 
