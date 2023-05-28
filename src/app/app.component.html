@@ -3,8 +3,8 @@
     {{ counter}}
   </div>
   <div class="app-counter__actions">
-    <button class="app-counter__button app-counter__button--orange" (click)="decrement()">Diminuir</button>
-    <button class="app-counter__button" (click)="reset()">Resetar</button>
-    <button class="app-counter__button app-counter__button--green" (click)="increment()">Aumentar</button>
+    <app-button (click)="decrement()" title="Diminuir" type="orange"></app-button>
+    <app-button (click)="reset()" title="Resetar"></app-button>
+    <app-button (click)="increment()" title="Aumentar" type="green"></app-button>
   </div>
 </div>

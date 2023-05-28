@@ -1,0 +1,17 @@
+.button-component {
+  background-color: #ddd;
+  border: 0;
+  padding: 8px;
+  font-weight: bold;
+  cursor: pointer;
+
+  &--orange {
+    background-color: #f40;
+    color: #fff;
+  }
+
+  &--green {
+    background-color: #080;
+    color: #fff;
+  }
+}
