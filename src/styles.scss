@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #aaa;
+  font-family: Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
