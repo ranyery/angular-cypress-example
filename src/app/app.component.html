@@ -1,7 +1,5 @@
 <div class="app-counter">
-  <div class="app-counter__display">
-    {{ counter}}
-  </div>
+  <app-display [value]="counter"></app-display>
   <div class="app-counter__actions">
     <app-button (click)="decrement()" title="Diminuir" type="orange"></app-button>
     <app-button (click)="reset()" title="Resetar"></app-button>

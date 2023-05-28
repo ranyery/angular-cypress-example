@@ -7,30 +7,8 @@
   justify-content: center;
   box-shadow: 0 10px 6px -6px #777;
 
-  &__display {
-    font-size: 8rem;
-  }
-
   &__actions {
     display: flex;
     gap: 16px;
-  }
-
-  &__button {
-    background-color: #ddd;
-    border: 0;
-    padding: 8px;
-    font-weight: bold;
-    cursor: pointer;
-
-    &--orange {
-      background-color: #f40;
-      color: #fff;
-    }
-
-    &--green {
-      background-color: #080;
-      color: #fff;
-    }
   }
 }
