@@ -5,9 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
 import { DisplayComponent } from './components/display/display.component';
+import { DataTestDirective } from './directives/data-test.directive';
 
 @NgModule({
-  declarations: [AppComponent, ButtonComponent, DisplayComponent],
+  declarations: [
+    AppComponent,
+    ButtonComponent,
+    DisplayComponent,
+    DataTestDirective,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
